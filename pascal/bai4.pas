@@ -40,6 +40,7 @@ var x,d,t:longint;
                         inc(j);
                         inc(d);
                     end;
+                dec(d);
                 for i:=1 to d-1 do
                     for j:=i+1 to d do 
                         if temp[i]>temp[j] then
@@ -78,6 +79,7 @@ var y,d,t:longint;
                         inc(j);
                         inc(d);
                     end;
+                dec(d);
                 for i:=1 to d-1 do
                     for j:=i+1 to d do 
                         if temp[i]>temp[j] then
